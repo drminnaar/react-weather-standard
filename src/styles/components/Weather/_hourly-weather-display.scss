@@ -1,0 +1,36 @@
+$hourly-weather-display-height: 170px;
+$hourly-weather-display-color: lightSteelBlue;
+
+.hourly-weather-card {
+    height: $hourly-weather-display-height - 20px;
+    text-align: center;
+}
+
+.hourly-weather-card .icon {
+    height: 50px;
+    max-width: 50px;
+}
+
+.hourly-weather-display {
+    background-color: $hourly-weather-display-color;
+    height: $hourly-weather-display-height;
+    position: relative;
+    width: 100%;
+}
+
+.hourly-weather-display .carousel {
+    position: absolute;
+    width: 100%;
+}
+
+.hourly-weather-display .carousel-nav {
+    cursor: pointer;
+    line-height: $hourly-weather-display-height - 20px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+
+.hourly-weather-display .carousel-nav > i {
+    vertical-align: middle;
+}

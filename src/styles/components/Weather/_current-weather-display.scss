@@ -1,0 +1,44 @@
+.current-weather-display {
+    background-color: #ECEFF1;    
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.current-weather-display .refresh {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #4CAF50;
+}
+
+.current-weather-display .weather-location {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-min-max-temp {
+    font-size: 1rem;
+    vertical-align: middle;    
+}
+
+.current-weather-display .weather-current .weather-temp {
+    font-size: 3rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-condition .weather-icon {
+    height: 4rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-condition .weather-description {
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-update {
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
