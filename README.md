@@ -2,6 +2,8 @@
 
 A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation.
 
+Go **[here](http://react-weather-standard.drminnaar.me/)** for live demo.
+
 The weather application is composed of the following components:
 
 * Header - A heading that displays application title
@@ -67,6 +69,7 @@ This project also demonstrates:
 * [OpenWeather API] - Provides weather information
 * [Google Geolocation API] - Provides geolocation information
 * [React Owl Carousel 2] - A third party react carousel component
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -250,6 +253,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 [OpenWeather API]: http://openweathermap.org
 [Google Geolocation API]: https://developers.google.com/maps/documentation/geolocation/intro
+[Surge]: https://surge.sh/
 [React Owl Carousel 2]: https://github.com/florinn/react-owl-carousel2
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
